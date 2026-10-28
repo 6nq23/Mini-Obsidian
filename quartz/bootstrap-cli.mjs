@@ -1,6 +1,4 @@
 #!/usr/bin/env -S node --no-deprecation
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
 import yargs from "yargs"
 import { hideBin } from "yargs/helpers"
 import {
